@@ -1,0 +1,84 @@
+.bloc_page {
+    display: flex;
+    margin: 0px 15% 0px 15%;
+    flex-direction: column;
+}
+header {
+    display: flex;
+}
+.size-logo {
+    font-size: 3em;
+}
+#ad-lodging {
+	background-color: white;
+	border-radius: 10px;
+    margin: 10px;
+    width: 210px;
+    height: 200px;
+    box-shadow: 5px 2px 5px #9b9b9b;
+}
+#ad-lodging img {
+	width: 200px;
+	height: 100px;
+    border-radius: 10px;
+}
+#ad-lodging-popular {
+    display: flex;
+	background-color: white;
+	border-radius: 10px;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    box-shadow: 5px 2px 5px #9b9b9b;
+}
+#ad-lodging-popular img {
+	width: 300px;
+    height: 100px;
+    padding-right: 50px;
+    max-width: 120px;
+    border-radius: 10px;
+}
+
+.result-filter {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+}
+
+.result-filter h2 {
+    /*occupe une ligne ? */
+    width: 100%;
+    margin: 5%;
+    margin-bottom: 1px;
+}
+
+.lodging {
+    display: flex;
+}
+
+aside {
+    margin: 20px 20px 20px 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+h2 i {
+    text-align: right;
+}
+.bottom-menu {
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+#content-bottom {
+    padding-right: 200px;
+}
