@@ -1,15 +1,17 @@
-.bloc_page {
-	display: flex;
-	margin: 0px 15% 0px 15%;
-	flex-direction: column;
+#bloc_page {
+	margin: 0px 10% 0px 10%;
 }
 header {
 	display: flex;
+	justify-content: space-between;
 }
-.size-logo {
+#menu-top {
+	display: flex;
+}
+#size-logo {
 	width: 100px;
 }
-#ad-lodging {
+.ad-lodging {
 	background-color: white;
 	border-radius: 10px;
 	margin: 10px;
@@ -17,12 +19,12 @@ header {
 	height: 200px;
 	box-shadow: 5px 2px 5px #9b9b9b;
 }
-#ad-lodging img {
+.ad-lodging img {
 	width: 200px;
 	height: 100px;
 	border-radius: 10px;
 }
-#ad-lodging-popular {
+.ad-lodging-popular {
 	display: flex;
 	background-color: white;
 	border-radius: 10px;
@@ -31,7 +33,7 @@ header {
 	height: auto;
 	box-shadow: 5px 2px 5px #9b9b9b;
 }
-#ad-lodging-popular img {
+.ad-lodging-popular img {
 	width: 300px;
 	height: 100px;
 	padding-right: 50px;
@@ -39,7 +41,7 @@ header {
 	border-radius: 10px;
 }
 
-.result-filter {
+#result-filter {
 	background-color: #f2f2f2;
 	display: flex;
 	flex-wrap: wrap;
@@ -51,14 +53,14 @@ header {
 	max-width: 800px;
 }
 
-.result-filter h2 {
+#result-filter h2 {
 	/*occupe une ligne ? */
 	width: 100%;
 	margin: 5%;
 	margin-bottom: 5px;
 }
 
-.lodging {
+#lodging {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -74,14 +76,14 @@ aside {
 h2 i {
 	text-align: right;
 }
-.bottom-menu {
+#bottom-menu {
 	display: flex;
 	background-color: #f2f2f2;
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	border-radius: 10px;
 }
-#content-bottom {
+.content-bottom {
 	padding-right: 200px;
 }
 .fas.fa-money-bill-wave-alt {
