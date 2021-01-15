@@ -2,13 +2,23 @@
 	font-family: "raleway";
 	src: url("fonts/Raleway-VariableFont_wght.ttf");
 }
+
+body {
+	margin: 0%;
+}
 #bloc-page {
 	max-width: 1440px;
 	max-height: 1884px;
 	margin: auto;
 }
 
-#blox-page, h1, h2, h3, h4, p, a {
+#blox-page,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
 	font-family: "raleway";
 }
 
@@ -17,28 +27,26 @@
 header {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 1.5em;
+	padding-top: 2.3em;
 }
 #size-logo {
 	width: 100px;
 }
 #menu-top {
 	display: flex;
-	flex-direction: row;
 	width: 480px;
 	margin-right: 75px;
 }
 .menu-tab {
 	display: block;
-	justify-content: center;
-	align-items: center;
 	max-width: 165px;
 }
 .text-menu-tab {
 	color: #353535;
 	text-decoration: none;
-	padding: 1.4em 1.5em 1.4em 1.5em;
-	font-size: 1.1em;
+	padding: 1.7em 1.5em 1.7em 1.5em;
+	font-size: 1em;
+	font-weight: bold;
 }
 .menu-tab a {
 	border-top: 5px solid #0065fc00;
@@ -51,9 +59,37 @@ header {
 	border-top: 5px solid #0065fc;
 }
 
-/*Shearsh bloc*/
+/*Search bloc*/
 
+filter,
+h2 {
+	margin-top: 1.5em;
+	margin-bottom: 5px;
+	font-size: 1.4em;
+}
+filter,
+h3 {
+	margin-top: 5px;
+	font-weight: normal;
+	font-size: 1em;
+}
+.fas.fa-map-marker-alt {
+	font-size: 2em;
+	text-align: center;
+	background-color: #f2f2f2;
+	width: 50px;
+	height: 50px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
 
+#search-bloc {
+	display: flex;
+}
+#ville {
+	width: 235px;
+	border: 1px solid #f2f2f2;
+}
 
 /*result bloc*/
 
