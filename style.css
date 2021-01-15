@@ -1,8 +1,19 @@
+@font-face {
+	font-family: "raleway";
+	src: url("fonts/Raleway-VariableFont_wght.ttf");
+}
 #bloc-page {
 	max-width: 1440px;
 	max-height: 1884px;
 	margin: auto;
 }
+
+#blox-page, h1, h2, h3, h4, p, a {
+	font-family: "raleway";
+}
+
+/*Menu top*/
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -27,22 +38,24 @@ header {
 	color: #353535;
 	text-decoration: none;
 	padding: 1.4em 1.5em 1.4em 1.5em;
-	font-size: 1.3em;
-
+	font-size: 1.1em;
 }
-.menu-tab a{
+.menu-tab a {
 	border-top: 5px solid #0065fc00;
 }
-.text-menu-tab.sign{
-	color: #0065FC;
-	font-weight: bold;
+.text-menu-tab.sign {
+	color: #0065fc;
 }
 .menu-tab a:hover {
-	color: #0065FC;
-	border-top: 5px solid #0065FC;
+	color: #0065fc;
+	border-top: 5px solid #0065fc;
 }
 
+/*Shearsh bloc*/
 
+
+
+/*result bloc*/
 
 .ad-lodging {
 	background-color: white;
