@@ -74,8 +74,10 @@ h3 {
 	font-size: 1em;
 }
 .fas.fa-map-marker-alt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 2em;
-	text-align: center;
 	background-color: #f2f2f2;
 	width: 50px;
 	height: 50px;
