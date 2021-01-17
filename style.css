@@ -18,6 +18,7 @@ h2,
 h3,
 h4,
 p,
+input,
 a {
 	font-family: "raleway";
 }
@@ -81,8 +82,8 @@ h3 {
 	background-color: #f2f2f2;
 	width: 50px;
 	height: 50px;
-	border-bottom-left-radius: 10px;
-	border-top-left-radius: 10px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 #search-bloc {
@@ -91,6 +92,21 @@ h3 {
 #ville {
 	width: 235px;
 	border: 1px solid #f2f2f2;
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 0em 0em 0em 1em;
+}
+#search-button {
+	background-color: #0065fc;
+	border: 1px solid #0065fc;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	width: 150px;
+	height: 50px;
+	color: white;
+	font-size: 1.2em;
+	font-weight: 600;
+
 }
 
 /*result bloc*/
