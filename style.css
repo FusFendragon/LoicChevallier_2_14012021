@@ -106,7 +106,42 @@ h3 {
 	color: white;
 	font-size: 1.2em;
 	font-weight: 600;
+}
+#filter-key {
+	display: flex;
+	flex-wrap: wrap;
+}
+#filter-key p:nth-child(1) {
+	padding-right: 2em;
+}
+#filter-key p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 600;
+	font-size: 1em;
+}
 
+
+.filter-button {
+	display: flex;
+	margin: 2em 2em 2em 2em;
+	border: 2px solid #c0c0c0;
+	border-radius: 30px;
+}
+.key-icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #0065fc;
+	width: 50px;
+	height: 50px;
+	background-color: #DEEBFF;
+	border-radius: 50px;
+	font-size: 1.3em;
+}
+.filter-button p {
+	padding: 0em 1em 0em 1em;
 }
 
 /*result bloc*/
@@ -187,6 +222,4 @@ h2 i {
 .content-bottom {
 	padding-right: 200px;
 }
-.fas.fa-money-bill-wave-alt {
-	color: blue;
-}
+
