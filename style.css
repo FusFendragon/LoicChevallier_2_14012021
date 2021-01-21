@@ -12,7 +12,6 @@ body {
 	margin: auto;
 }
 
-#blox-page,
 h1,
 h2,
 h3,
@@ -36,7 +35,6 @@ header {
 #menu-top {
 	display: flex;
 	width: 480px;
-	margin-right: 75px;
 }
 .menu-tab {
 	display: block;
@@ -319,6 +317,66 @@ aside {
 .popu-text .rating-lodging-5stars {
 	margin: 25px 0px 0px 20px;
 }
+
+/* Activity*/
+
+#activity h2 {
+	margin-bottom: 25px;
+}
+#activity h4 {
+	margin: 20px;
+}
+
+#bloc-activity {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	max-width: 1440px;
+	height: 450px;
+}
+.ad-activity {
+	display: flex;
+	flex-direction: column;
+	width: 305px;
+	height: 160px;
+	border-radius: 25px;
+	box-shadow: 5px 2px 30px #c9c9c9;
+}
+.ad-activity img {
+	width: 305px;
+	height: 110px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	object-fit: cover;
+}
+.ad-activity:nth-child(1),
+.ad-activity:nth-child(4){
+	height: 450px;
+}
+.ad-activity:nth-child(1) img,
+.ad-activity:nth-child(4) img {
+	height: 390px;
+}
+.ad-activity:nth-child(2) {
+	height: 240px;
+}
+.ad-activity:nth-child(2) img {
+	height: 180px;
+}
+.ad-activity:nth-child(5) {
+	height: 195px;
+}
+.ad-activity:nth-child(5) img {
+	height: 140px;
+}
+.ad-activity:nth-child(6) {
+	height: 210px;
+}
+.ad-activity:nth-child(6) img {
+	height: 150px;
+}
+
 
 #bottom-menu {
 	display: flex;
