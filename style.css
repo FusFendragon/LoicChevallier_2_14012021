@@ -169,6 +169,8 @@ h3 {
 /*result bloc*/
 
 .ad-lodging {
+	display: flex;
+	flex-direction: column;
 	background-color: white;
 	border-radius: 10px;
 	margin: 10px;
@@ -183,6 +185,42 @@ h3 {
 	border: 5px solid #ffffff;
 	object-fit: cover;
 }
+.ad-lodging h4, p {
+	margin: 0px 0px 0px 20px;
+}
+
+/*Rating*/
+
+.rating-lodging-3stars {
+	font-size: 0.9em;
+	margin: 0px 0px 0px 20px;
+}
+.rating-lodging-3stars .fa.fa-star {
+	color: #0065fc;
+}
+.rating-lodging-3stars .fa.fa-star:nth-child(4),.rating-lodging-3stars .fa.fa-star:nth-child(5) {
+	color: #c0c0c0;
+}
+.rating-lodging-4stars {
+	font-size: 0.9em;
+	margin: 0px 0px 0px 20px;
+}
+.rating-lodging-4stars .fa.fa-star {
+	color: #0065fc;
+}
+.rating-lodging-4stars .fa.fa-star:nth-child(5) {
+	color: #c0c0c0;
+}
+.rating-lodging-5stars {
+	font-size: 0.9em;
+	margin: 0px 0px 0px 20px;
+}
+.rating-lodging-5stars .fa.fa-star {
+	color: #0065fc;
+}
+
+/*end rating*/
+
 .ad-lodging-popular {
 	display: flex;
 	background-color: white;
