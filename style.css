@@ -47,13 +47,14 @@ header {
 	text-decoration: none;
 	padding: 2.1em 1.5em 2.1em 1.5em;
 	font-size: 1em;
-	font-weight: bold;
+	font-weight: 500;
 }
 .menu-tab a {
 	border-top: 5px solid #0065fc00;
 }
 .text-menu-tab.sign {
 	color: #0065fc;
+	font-weight: 700;
 }
 .menu-tab a:hover {
 	color: #0065fc;
@@ -168,31 +169,61 @@ h3 {
 
 /*result bloc*/
 
+#result-filter {
+	background-color: #f2f2f2;
+	display: flex;
+	flex-wrap: wrap;
+	width: auto;
+	height: auto;
+	border-radius: 20px;
+	margin: 20px 20px 20px 20px;
+	max-width: 880px;
+}
+#result-filter h2 {
+	width: 100%;
+	margin: 0px 0px 25px 0px;
+
+}
+#bloc-lodging {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: auto;
+	height: auto;
+	margin: 45px 40px 0px 40px;
+}
+
 .ad-lodging {
 	display: flex;
 	flex-direction: column;
 	background-color: white;
-	border-radius: 10px;
-	margin: 10px;
-	max-width: 250px;
-	max-height: 200px;
-	box-shadow: 5px 2px 5px #9b9b9b;
+	margin: 0px 0px 30px 0px;
+	border-radius: 25px;
+	width: 250px;
+	height: 200px;
+	box-shadow: 5px 2px 5px #c9c9c9;
+
 }
 .ad-lodging img {
 	width: 240px;
 	height: 120px;
-	border-radius: 10px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 	border: 5px solid #ffffff;
 	object-fit: cover;
 }
 .ad-lodging h4, p {
-	margin: 0px 0px 0px 20px;
+	margin: 0px 0px 5px 20px;
+}
+.ad-lodging p {
+	font-size: smaller;
 }
 
 /*Rating*/
 
 .rating-lodging-3stars {
-	font-size: 0.9em;
+	display: flex;
+	font-size: 0.8em;
 	margin: 0px 0px 0px 20px;
 }
 .rating-lodging-3stars .fa.fa-star {
@@ -202,7 +233,8 @@ h3 {
 	color: #c0c0c0;
 }
 .rating-lodging-4stars {
-	font-size: 0.9em;
+	display: flex;
+	font-size: 0.8em;
 	margin: 0px 0px 0px 20px;
 }
 .rating-lodging-4stars .fa.fa-star {
@@ -212,7 +244,8 @@ h3 {
 	color: #c0c0c0;
 }
 .rating-lodging-5stars {
-	font-size: 0.9em;
+	display: flex;
+	font-size: 0.8em;
 	margin: 0px 0px 0px 20px;
 }
 .rating-lodging-5stars .fa.fa-star {
@@ -236,25 +269,18 @@ h3 {
 	border-bottom-left-radius: 10px;
 	border-top-left-radius: 10px;
 }
-
-#result-filter {
-	background-color: #f2f2f2;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	width: auto;
-	height: auto;
-	border-radius: 10px;
-	margin: 20px 20px 20px 20px;
-	max-width: 880px;
+#view-more {
+	color: #353535;
+	text-decoration: none;
+	padding: 2.1em 1.5em 2.1em 1.5em;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 15px;
+	margin: 0px 0px 30px 0px;
 }
 
-#result-filter h2 {
-	/*occupe une ligne ? */
-	width: 100%;
-	margin: 5%;
-	margin-bottom: 5px;
-}
+
+
 
 #lodging {
 	display: flex;
