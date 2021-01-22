@@ -36,7 +36,7 @@ header {
 }
 #menu-top {
 	display: flex;
-	width: 480px;
+	width: 430px;
 }
 .menu-tab {
 	display: block;
@@ -45,8 +45,8 @@ header {
 .text-menu-tab {
 	color: #353535;
 	text-decoration: none;
-	padding: 2.2em 1.5em 2.1em 1.5em;
-	font-size: 1em;
+	padding: 1.8em 1.5em 1.8em 1.5em;
+	font-size: 1.2em;
 	font-weight: 500;
 }
 .menu-tab a {
@@ -115,7 +115,7 @@ h3 {
 	flex-wrap: wrap;
 }
 #filter-key p:nth-child(1) {
-	padding-right: 2em;
+	padding-right: 1em;
 }
 #filter-key p {
 	display: flex;
@@ -128,7 +128,7 @@ h3 {
 
 .filter-button {
 	display: flex;
-	margin: 2em 2em 2em 2em;
+	margin: 30px 25px;
 	border: 2px solid #c0c0c0;
 	border-radius: 30px;
 }
