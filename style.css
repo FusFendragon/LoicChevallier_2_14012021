@@ -27,7 +27,7 @@ a {
 header {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 2.3em;
+	padding-top: 50px;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -39,22 +39,19 @@ header a {
 }
 #menu-top {
 	display: flex;
-	justify-content: flex-end;
 }
 .menu-tab {
 	display: block;
-	max-width: 165px;
-	padding: 1.8em 1.5em 1.8em 1.5em;
 }
 .text-menu-tab {
 	color: #353535;
 	text-decoration: none;
-	padding: 1.8em 1.5em 1.8em 1.5em;
-	font-size: 1.2em;
+	font-size: 0.9em;
 	font-weight: 500;
 }
 .menu-tab a {
-	border-top: 3px solid #0065fc00;
+	padding: 49px 25px 30px 25px;
+	border-top: 1px solid #0065fc00;
 }
 .text-menu-tab.sign {
 	color: #0065fc;
@@ -181,7 +178,7 @@ h3 {
 
 #lodging {
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap-reverse;
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -448,17 +445,62 @@ aside {
 	text-decoration: none;
 	color: #353535;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
 	header {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		padding-top: 2.3em;
-		margin-left: 50px;
-		margin-right: 50px;
+		padding-top: 30px;
+		margin: 0px;
+	}
+	#size-logo {
+		margin-left: 20px;
+	}
+	header a {
+		width: 150px;
 	}
 	.text-menu-tab.sign {
+		width: auto;
+		font-size: 1.2em;
+		border: none;
+	}
+	.text-menu-tab.sign:hover {
+		border: none;
+	}
+	#menu-top {
+		display: flex;
+	}
+	.menu-tab.bot {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 50%;
+		height: 70px;
+		padding: 55px 0px 15px 0px;
+		border-bottom: 3px inset #f2f2f2;
+		box-sizing: border-box;
+	}
+	.menu-tab.bot:hover {
+		border-bottom: 3px inset #0065fc;
+	}
+	.text-menu-tab {
+		font-size: 1.2em;
+	}
+	a.text-menu-tab {
+		width: 100%;
+		padding: 12px 0px;
+		border: none;
+	}
+	a.text-menu-tab:hover {
+		border: none;
+	}
+	.menu-tab.sign {
+		display: inline;
 		position: absolute;
-		
+		width: auto;
+		top: 45px;
+		right: 20px;
+		border: none;
 	}
 }
