@@ -334,13 +334,11 @@ p {
 }
 
 #view-more {
-	width: 100%;
 	color: #353535;
 	text-decoration: none;
-	padding: 2.1em 1.5em 2.1em 1.5em;
 	font-size: 1.1em;
 	font-weight: bold;
-	padding: 15px;
+	padding: 15px 5px ;
 	margin: 0px 0px 30px 0px;
 }
 
@@ -407,6 +405,15 @@ p {
 	.ad-lodging img {
 		width: 325px;
 	}
+	#view-more {
+		width: 100%;
+		color: #353535;
+		text-decoration: none;
+		font-size: 1.1em;
+		font-weight: bold;
+		padding: 15px 22px;
+		margin: 0px;
+	}
 }
 @media screen and (max-width: 930px) {
 	#lodging {
@@ -438,7 +445,7 @@ p {
 	margin-right: 20px;
 }
 #activity h2 {
-	margin-bottom: 25px;
+	margin: 60px 0px 25px 0px;
 }
 #activity h4 {
 	margin: 20px;
