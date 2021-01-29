@@ -340,7 +340,7 @@ p {
 		width: 325px;
 	}
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 930px) {
 	#lodging {
 		flex-wrap: wrap-reverse;
 		margin: 0px;
