@@ -212,6 +212,7 @@ h3 {
 .filter-button:hover {
 	background-color: #deebff;
 	border: 1px solid#deebff;
+	border-left: none;
 }
 .fas.key-icon {
 	display: flex;
@@ -530,11 +531,13 @@ p {
 	}
 }
 @media screen and (max-width: 360px) {
-	#result-filter a, #result-filter img{
+	#result-filter a,
+	#result-filter img {
 		min-width: 280px;
 		width: auto;
 	}
-	#result-popular a, #result-popular .popu-text{
+	#result-popular a,
+	#result-popular .popu-text {
 		min-width: 145px;
 		width: auto;
 	}
@@ -544,7 +547,6 @@ p {
 	#result-popular img {
 		min-width: 110px;
 	}
-
 }
 
 /* Activity*/
