@@ -180,8 +180,9 @@ h3 {
 	font-size: 1.2em;
 	font-weight: 600;
 }
-#search-button p {
+#search-button span {
 	margin: 0px 10px;
+	font-family: "raleway";
 }
 
 #filter-key {
