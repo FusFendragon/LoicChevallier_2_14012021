@@ -335,18 +335,6 @@ h3 {
 	height: auto;
 	margin: 45px 40px 0px 40px;
 }
-.link-lodging {
-	text-decoration: none;
-	color: black;
-	max-height: 200px;
-}
-.link-lodging:hover {
-	background-color: #f2f2f2;
-}
-.link-lodging:hover.ad-lodging img {
-	border: 5px solid #f2f2f2;
-}
-
 .ad-lodging {
 	display: flex;
 	flex-direction: column;
@@ -356,6 +344,9 @@ h3 {
 	width: 250px;
 	height: 200px;
 	box-shadow: 5px 2px 30px #c9c9c9;
+	text-decoration: none;
+	color: black;
+	max-height: 200px;
 }
 .ad-lodging img {
 	width: 240px;
@@ -364,6 +355,9 @@ h3 {
 	border-top-right-radius: 25px;
 	border: 5px solid #ffffff;
 	object-fit: cover;
+}
+.ad-lodging:hover {
+	box-shadow: 5px 2px 30px #b3b3b3;
 }
 .ad-lodging h4,
 p {
@@ -440,9 +434,11 @@ p {
 	margin: 0px 0px 35px 0px;
 	width: 345px;
 	box-shadow: 5px 2px 30px #c9c9c9;
+	text-decoration: none;
+	color: black;
 }
-.link-lodging:hover.ad-lodging-popular img{
-	border: 5px solid #f2f2f2;
+.ad-lodging-popular:hover {
+	box-shadow: 5px 2px 30px #b3b3b3;
 }
 .ad-lodging-popular img {
 	height: 130px;
@@ -489,6 +485,12 @@ p {
 		margin-left: 5px;
 	}
 }
+@media screen and (max-width: 1400px) {
+	#view-more {
+		text-align: center;
+		width: 50%;
+	}
+}
 @media screen and (max-width: 880px) {
 	#lodging {
 		flex-wrap: wrap-reverse;
@@ -519,6 +521,31 @@ p {
 		width: 325px;
 	}
 }
+@media screen and (max-width: 670px) {
+	#view-more {
+		text-align: left;
+		width: 335px;
+		padding: 0px;
+	}
+}
+@media screen and (max-width: 360px) {
+	#result-filter a, #result-filter img{
+		min-width: 280px;
+		width: auto;
+	}
+	#result-popular a, #result-popular .popu-text{
+		min-width: 145px;
+		width: auto;
+	}
+	#result-popular .popu-text h4 {
+		margin-bottom: 0px;
+	}
+	#result-popular img {
+		min-width: 110px;
+	}
+
+}
+
 /* Activity*/
 
 #activity {
@@ -547,6 +574,11 @@ p {
 	border-radius: 25px;
 	box-shadow: 5px 2px 30px #c9c9c9;
 	margin: 0px 10px 20px 10px;
+	text-decoration: none;
+	color: black;
+}
+.ad-activity:hover {
+	box-shadow: 5px 2px 30px #b3b3b3;
 }
 .ad-activity img {
 	width: 305px;
