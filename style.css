@@ -252,16 +252,34 @@ h3 {
 	font-size: 1.1em;
 	margin: 0em 1em;
 }
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1075px) {
+	.filter-button {
+		margin: 15px 15px 0px 0px;
+	}
+	#filter-key p:nth-child(1) {
+		justify-content: left;
+		padding: 0px;
+		width: 100%;
+	}
+	#filter-key p {
+		padding: 0px 15px;
+		font-size: 0.98em;
+	}
+	#info-filter {
+		font-size: 0.9em;
+		margin: 30px 0px 40px 0px;
+	}
+	#search-bloc {
+		margin: 35px 0px;
+	}
+}
+@media screen and (max-width: 665px) {
 	#filter {
 		margin: 0px 15px;
 	}
 	#filter h3 {
 		font-size: 1.1em;
 		margin: 15px 0px 0px 0px;
-	}
-	#search-bloc {
-		margin: 35px 0px;
 	}
 	#search-button {
 		width: 50px;
@@ -285,22 +303,6 @@ h3 {
 	}
 	#search-button i {
 		display: inline;
-	}
-	#filter-key p:nth-child(1) {
-		justify-content: left;
-		padding: 0px;
-		width: 100%;
-	}
-	#filter-key p {
-		padding: 0px 15px;
-		font-size: 0.98em;
-	}
-	.filter-button {
-		margin: 15px 15px 0px 0px;
-	}
-	#info-filter {
-		font-size: 0.9em;
-		margin: 30px 0px 40px 0px;
 	}
 }
 /*result bloc*/
@@ -332,6 +334,17 @@ h3 {
 	width: auto;
 	height: auto;
 	margin: 45px 40px 0px 40px;
+}
+.link-lodging {
+	text-decoration: none;
+	color: black;
+	max-height: 200px;
+}
+.link-lodging:hover {
+	background-color: #f2f2f2;
+}
+.link-lodging:hover.ad-lodging img {
+	border: 5px solid #f2f2f2;
 }
 
 .ad-lodging {
@@ -428,6 +441,9 @@ p {
 	width: 345px;
 	box-shadow: 5px 2px 30px #c9c9c9;
 }
+.link-lodging:hover.ad-lodging-popular img{
+	border: 5px solid #f2f2f2;
+}
 .ad-lodging-popular img {
 	height: 130px;
 	width: 135px;
@@ -457,15 +473,6 @@ p {
 	margin: 25px 0px 0px 20px;
 }
 @media screen and (max-width: 1440px) {
-	#bloc-lodging {
-		justify-content: space-around;
-	}
-	.ad-lodging {
-		width: 335px;
-	}
-	.ad-lodging img {
-		width: 325px;
-	}
 	#view-more {
 		width: 100%;
 		color: #353535;
@@ -475,8 +482,14 @@ p {
 		padding: 15px 22px;
 		margin: 0px;
 	}
+	#bloc-lodging {
+		justify-content: space-around;
+	}
+	.ad-lodging {
+		margin-left: 5px;
+	}
 }
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 880px) {
 	#lodging {
 		flex-wrap: wrap-reverse;
 		margin: 0px;
@@ -497,6 +510,13 @@ p {
 	}
 	#bloc-lodging h2 {
 		margin: 40px 0px 20px 20px;
+	}
+	.ad-lodging {
+		width: 335px;
+		margin-left: 0px;
+	}
+	.ad-lodging img {
+		width: 325px;
 	}
 }
 /* Activity*/
