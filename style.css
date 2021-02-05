@@ -8,7 +8,6 @@ body {
 }
 #bloc-page {
 	max-width: 1440px;
-	max-height: 1884px;
 	margin: auto;
 }
 
@@ -300,7 +299,7 @@ h3 {
 		border-bottom-right-radius: 20px;
 		border-top-right-radius: 20px;
 	}
-	#search-button p {
+	#search-button span {
 		display: none;
 	}
 	#search-button i {
@@ -566,7 +565,6 @@ p {
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
-	max-width: 1440px;
 	margin: 0px 0px 60px 0px;
 }
 .ad-activity {
@@ -590,7 +588,7 @@ p {
 	border-top-right-radius: 25px;
 	object-fit: cover;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1440px) {
 	#activity {
 		margin-left: 50px;
 		margin-right: 50px;
