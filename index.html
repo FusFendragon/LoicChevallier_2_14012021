@@ -12,13 +12,13 @@
 			<header>
 				<a href="index.html"><img src="images/logo/Reservia@3x.png" alt="Reservia" id="size-logo" /></a>
 				<div id="menu-top">
-					<div class="menu-tab">
-						<a href="#go-lodging" class="text-menu-tab">Hébergement</a>
+					<div class="menu-tab bot">
+						<a href="#lodging" class="text-menu-tab">Hébergements</a>
 					</div>
-					<div class="menu-tab">
+					<div class="menu-tab bot">
 						<a href="#go-activity" class="text-menu-tab">Activités</a>
 					</div>
-					<div class="menu-tab">
+					<div class="menu-tab sign">
 						<a href="#sign-in" class="text-menu-tab sign">S'inscrire</a>
 					</div>
 				</div>
@@ -26,11 +26,16 @@
 			<section id="filter">
 				<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 				<h3>En plein centre ville ou en pleine nature</h3>
-				<form action="" method="get" class="search">
+				<form action="#" method="get" class="search">
 					<div id="search-bloc">
 						<i class="fas fa-map-marker-alt"></i>
 						<input type="text" name="ville" id="ville" value="Marseille, France" required />
-						<input type="submit" value="Rechercher" id="search-button" />
+						<div id="border-button">
+							<button type="submit" id="search-button">
+								<span>Rechercher</span>
+								<i class="fas fa-search"></i>
+							</button>
+						</div>
 					</div>
 				</form>
 				<div id="filter-key">
@@ -58,10 +63,11 @@
 				</div>
 			</section>
 			<section id="lodging">
+			
 				<article id="result-filter">
 					<div id="bloc-lodging">
-						<h2 id="go-lodging">Hébergement à Marseille</h2>
-						<div class="ad-lodging">
+						<h2>Hébergements à Marseille</h2>
+						<a href="#" class="ad-lodging">
 							<img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la cannebière" />
 							<h4>Auberge la cannebière</h4>
 							<p>Nuit à partir de <strong>25€</strong></p>
@@ -72,8 +78,8 @@
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star five" aria-hidden="true"></i>
 							</div>
-						</div>
-						<div class="ad-lodging">
+						</a>
+						<a href="#" class="ad-lodging">
 							<img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port" />
 							<h4>Hôtel du port</h4>
 							<p>Nuit à partir de <strong>52€</strong></p>
@@ -84,8 +90,8 @@
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 							</div>
-						</div>
-						<div class="ad-lodging">
+						</a>
+						<a href="#" class="ad-lodging">
 							<img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes" />
 							<h4>Hôtel Les mouettes</h4>
 							<p>Nuit à partir de <strong>76€</strong></p>
@@ -96,8 +102,8 @@
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star five" aria-hidden="true"></i>
 							</div>
-						</div>
-						<div class="ad-lodging">
+						</a>
+						<a href="#" class="ad-lodging">
 							<img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer" />
 							<h4>Hôtel de la mer</h4>
 							<p>Nuit à partir de <strong>46€</strong></p>
@@ -108,8 +114,8 @@
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 							</div>
-						</div>
-						<div class="ad-lodging">
+						</a>
+						<a href="#" class="ad-lodging">
 							<img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le panier" />
 							<h4>Auberge Le panier</h4>
 							<p>Nuit à partir de <strong>23€</strong></p>
@@ -120,8 +126,8 @@
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 							</div>
-						</div>
-						<div class="ad-lodging">
+						</a>
+						<a href="#" class="ad-lodging">
 							<img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina" />
 							<h4>Hôtel chez Amina</h4>
 							<p>Nuit à partir de <strong>96€</strong></p>
@@ -132,14 +138,14 @@
 								<i class="fa fa-star" aria-hidden="true"></i>
 								<i class="fa fa-star" aria-hidden="true"></i>
 							</div>
-						</div>
+						</a>
 						<a href="#view-more" id="view-more">Afficher plus</a>
 					</div>
 				</article>
 				<aside id="result-popular">
 					<div id="bloc-popular">
-						<h2>Les plus populaire<i class="fas fa-chart-line"></i></h2>
-						<div class="ad-lodging-popular">
+						<h2>Les plus populaires<i class="fas fa-chart-line"></i></h2>
+						<a href="#" class="ad-lodging-popular">
 							<img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin" />
 							<div class="popu-text">
 								<h4>Hôtel Le soleil du matin</h4>
@@ -152,8 +158,8 @@
 									<i class="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
-						</div>
-						<div class="ad-lodging-popular">
+						</a>
+						<a href="#" class="ad-lodging-popular">
 							<img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau Chambres d'hôtes" />
 							<div class="popu-text">
 								<h4>Au coeur de l'eau Chambres d'hôtes</h4>
@@ -166,8 +172,8 @@
 									<i class="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
-						</div>
-						<div class="ad-lodging-popular">
+						</a>
+						<a href="#" class="ad-lodging-popular">
 							<img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Tout bleu et blanc" />
 							<div class="popu-text">
 								<h4>Hôtel Tout bleu et blanc</h4>
@@ -180,81 +186,69 @@
 									<i class="fa fa-star" aria-hidden="true"></i>
 								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 				</aside>
 			</section>
 			<section id="activity">
 				<h2 id="go-activity">Activités à Marseille</h2>
 				<div id="bloc-activity">
-					<div class="ad-activity">
-						<img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port Marseille">
+					<a href="#" class="ad-activity">
+						<img src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port Marseille" />
 						<h4>Vieux Port</h4>
-					</div>
-					<div class="ad-activity">
-						<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues Marseille">
+					</a>
+					<a href="#" class="ad-activity">
+						<img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues Marseille" />
 						<h4>Fort de Pomègues</h4>
-					</div>
-					<div class="ad-activity">
-						<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul Marseille">
+					</a>
+					<a href="#" class="ad-activity">
+						<img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul Marseille" />
 						<h4>Îles du Frioul</h4>
-					</div>
-					<div class="ad-activity">
-						<img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques Marseille">
+					</a>
+					<a href="#" class="ad-activity">
+						<img src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques Marseille" />
 						<h4>Parc National des Calanques</h4>
-					</div>
-					<div class="ad-activity">
-						<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde Marseille">
+					</a>
+					<a href="#" class="ad-activity">
+						<img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde Marseille" />
 						<h4>Notre-Dame-de-la-Garde</h4>
-					</div>
-					<div class="ad-activity">
-						<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp Marseille">
+					</a>
+					<a href="#" class="ad-activity">
+						<img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp Marseille" />
 						<h4>Parc Longchamp</h4>
-					</div>
+					</a>
 				</div>
 			</section>
 			<footer id="bottom-menu">
-				<div class="content-bottom">
-					<h3>À propos</h3>
-					<ul>
-						<li><a href="index.html">Fonctionement du site</a></li>
-						<li>
-							<a href="index.html">Conditions générales de vente</a>
-						</li>
-						<li>
-							<a href="index.html">Données et confidentialité</a>
-						</li>
-					</ul>
-				</div>
-				<div class="content-bottom">
-					<h3>Nos hébergements</h3>
-					<ul>
-						<li><a href="index.html">Charte qualité</a></li>
-						<li><a href="index.html">Soumettre votre hôtel</a></li>
-					</ul>
-				</div>
-				<div class="content-bottom">
-					<h3>Assistance</h3>
-					<ul>
-						<li><a href="index.html">Centre d'aide</a></li>
-						<li><a href="index.html">Nous contacter</a></li>
-					</ul>
+				<div id="bloc-bottom-menu">
+					<div class="content-bottom">
+						<h3>À propos</h3>
+						<ul>
+							<li><a href="index.html">Fonctionement du site</a></li>
+							<li>
+								<a href="index.html">Conditions générales de vente</a>
+							</li>
+							<li>
+								<a href="index.html">Données et confidentialité</a>
+							</li>
+						</ul>
+					</div>
+					<div class="content-bottom">
+						<h3>Nos hébergements</h3>
+						<ul>
+							<li><a href="index.html">Charte qualité</a></li>
+							<li><a href="index.html">Soumettre votre hôtel</a></li>
+						</ul>
+					</div>
+					<div class="content-bottom">
+						<h3>Assistance</h3>
+						<ul>
+							<li><a href="index.html">Centre d'aide</a></li>
+							<li><a href="index.html">Nous contacter</a></li>
+						</ul>
+					</div>
 				</div>
 			</footer>
 		</div>
 	</body>
 </html>
-
-<!--
-	Question pour JF: 
-	changer des raccourcies emmet (a voir)
-	comment selectionner le contenu d'une balise en raccourcie ( a chercher)
-
-	réponse : 
-	Pas num les p
-	class peut etre dupliqué et id non
-	ok pour avoir du css sur la balise i
-	check em
-	comment selectionner les balises du même nom suivante ctrl D
-	Mesurer les pixels d'une image (paint ou photoshop)
--->
